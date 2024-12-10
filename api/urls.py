@@ -6,4 +6,5 @@ urlpatterns = [
     path('users/', UsersView.as_view(), name='users'),
     path('messages/', MessagesViews.as_view(), name='messages'),
     path('messages/<int:pk>/', MessageView.as_view(), name='message'),
+
 ]
